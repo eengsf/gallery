@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <header>
+      <nav>
+         <div class="logo">
+            <h1>MasEeng.sf</h1>
+         </div>
+         <!-- <div> -->
+         <ul class="menu">
+            <li><a href="">pertama</a></li>
+            <li><a href="#main2">kedua</a></li>
+            <li><a href="#main3">ketiga</a></li>
+            <li><a href="#main4">keempat</a></li>
+         </ul>
+         <!-- </div> -->
+         <div class="toggle">
+            <input type="checkbox" id="check">
+            <label for="check">
+               <span></span>
+               <span></span>
+               <span></span>
+            </label>
+         </div>
+      </nav>
+   </header>
+   <main>
+      <div class="main1" id="main1">
+         <div class="main1a">
+            <h1>Submission Tugas Dasar Pemrograman Web</h1>
+         </div>
+         <div class="main1b">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eum repudiandae debitis vitae sapiente
+               reiciendis, illum officiis non magni quis.</p>
+            <button>Selengkapnya</button>
+         </div>
+      </div>
+      <div class="main2" id="main2">
+         <article>
+            <h1>Natural</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quas, ab quae mollitia, fuga aspernatur,
+               recusandae esse consequatur autem at facilis adipisci. Fugit culpa sunt reprehenderit tempore dolores
+               sint porro voluptatem in earum corrupti! Repellat!</p>
+            <button>Read More</button>
+         </article>
+         <aside>
+            <div class="aside1">
+               <div>
+                  <img src="./img/mountain.png" alt="">
+               </div>
+               <div class="aside1b">
+                  <h1>Montain</h1>
+               </div>
+            </div>
+            <div class="aside2">
+               <div>
+                  <img src="./img/beach.png" alt="">
+               </div>
+               <div class="aside2b">
+                  <h1>Beach</h1>
+               </div>
+            </div>
+            <div class="aside3">
+               <div>
+                  <img src="./img/forest.png" alt="">
+               </div>
+               <div class="aside3b">
+                  <h1>Forest</h1>
+               </div>
+            </div>
+            <div class="aside4">
+               <div>
+                  <img src="./img/lake.png" alt="">
+               </div>
+               <div class="aside4b">
+                  <h1>Lake</h1>
+               </div>
+            </div>
+         </aside>
+      </div>
+      <div class="main3" id="main3">
+         <div class="main3a">
+            <h1>Gallery</h1>
+            <h1>Breathtaking Natural Landscapes.</h1>
+         </div>
+         <div class="main3b">
+            <div class="main3b-1">
+               <div>
+                  <img src="./img/sunrise.png" alt="">
+               </div>
+               <div>
+                  <img src="./img/sunset.png" alt="">
+               </div>
+               <div>
+                  <img src="./img/cloudy.png" alt="">
+               </div>
+               <div>
+                  <img src="./img/fullmoon.png" alt="">
+               </div>
+               <div>
+                  <img src="./img/star.png" alt="">
+               </div>
+               <div>
+                  <img src="./img/waterfall.png" alt="">
+               </div>
+               <div>
+                  <img src="./img/river.png" alt="">
+               </div>
+               <div>
+                  <img src="./img/ricefield.png" alt="">
+               </div>
+               <div>
+                  <img src="./img/cave.png" alt="">
+               </div>
+               <div>
+                  <img src="./img/cliff.png" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="main3c">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, necessitatibus voluptatibus! Asperiores
+               numquam, quis modi dignissimos reprehenderit exercitationem voluptatibus officiis praesentium, maxime
+               culpa blanditiis eligendi.</p>
+         </div>
+      </div>
+   </main>
+
+   <footer>
+      <p>Copyright&copy; 2023. MasEeng</p>
+   </footer>
+   <script>
+      const menuToggle = document.querySelector('.toggle');
+      const nav = document.querySelector('.menu');
+      menuToggle.addEventListener('change', function () {
+         nav.classList.toggle('slide', this.checked);
+      });
+   </script>
+</body>
+
+</html>
